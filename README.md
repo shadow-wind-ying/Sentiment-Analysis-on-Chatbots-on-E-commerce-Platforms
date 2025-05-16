@@ -2,8 +2,9 @@
 
 # Main files:
 
-ipynb file: The main files with sentiment analysis, humanization metric and visualization function.
-data zip file: The communication record with each platforms (3 scenario * 4 platforms(Engilish Version (using google translation) 
+Sentiment and humanization analysis on chatbots.ipynb file: The main files with sentiment analysis, humanization metric and visualization function.
+
+chatbot data zip file: The communication record with each platforms (3 scenario * 4 platforms(Engilish Version (using google translation) 
 
 # 1.Introduction
 Chatbots have experienced a significant rise in popularity, becoming essential tools for businesses across various industries and sizes. Their ability to streamline customer service, provide instant support, and enhance user experience has made them integral to modern business operations. Many online shopping platforms use a chatbot to provide their customer service. The service quality represents the attitude of the platforms to customers. High quality customer service is an important factor to satisfy customers, understanding their ability to handle complex emotional and demographic-specific scenarios has become critical.
@@ -53,7 +54,7 @@ I used the humanization metric to calculate the humanity score of each scenario 
 
 ***(3) Compare real chatbot’s response with customized response***
 
-This experiment generates customized responses through an A/B testing platform (“A/B Testing Prompt Template Design Analysis”). The core logic is to embed the company's mission and values into prompt templates to simulate an "idealized" customer service strategy. These are then compared with real chatbot responses for humanization scoring. To ensure the reliability of results, the experiment was conducted independently three times, covering major types of issues, and average scores were taken for multi-response scenarios to reduce random bias.
+This experiment generates customized responses through an A/B testing platform (“[A/B Testing Prompt Template Design Analysis](https://dinosaur-composed-lizard.ngrok-free.app/)”). The core logic is to embed the company's mission and values into prompt templates to simulate an "idealized" customer service strategy. These are then compared with real chatbot responses for humanization scoring. To ensure the reliability of results, the experiment was conducted independently three times, covering major types of issues, and average scores were taken for multi-response scenarios to reduce random bias.
 
 Since the website generates two types of responses (Benchmark and Custom), and I only need the "Custom" responses, I ran the program three times to gather all the Custom responses. This approach should cover the majority of the questions. By comparing the humanity scores between real responses and customized responses, the experiment can effectively evaluate the level of humanization in the emotional chatbots used by these e-commerce platforms. This analysis provides valuable insights into how well these chatbots can simulate human-like interactions, ultimately enhancing customer engagement and satisfaction.
 
