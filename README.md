@@ -4,7 +4,7 @@
 
 Sentiment and humanization analysis on chatbots.ipynb file: The main files with sentiment analysis, humanization metric and visualization function.
 
-chatbot data zip file: The communication record with each platforms (3 scenario * 4 platforms(Engilish Version (using google translation) 
+chatbot data zip file: The communication record with each platforms [3 scenario * 4 platforms= 12 excel files (English version)] (Google Translation are used on the record of Taobao and Douyin)
 
 Mission and core value for A/B Testing.txt：The prompt I used in research three for acuqiring customized responses.
 
@@ -12,6 +12,8 @@ customize responses zip file: The data I collected from the (“[A/B Testing Pro
 
 # 1.Introduction
 Chatbots have experienced a significant rise in popularity, becoming essential tools for businesses across various industries and sizes. Their ability to streamline customer service, provide instant support, and enhance user experience has made them integral to modern business operations. Many online shopping platforms use a chatbot to provide their customer service. The service quality represents the attitude of the platforms to customers. High quality customer service is an important factor to satisfy customers, understanding their ability to handle complex emotional and demographic-specific scenarios has become critical.
+
+***Research Objects:*** Chatbots on Taobao, Douyin, Amazon and Zalora
 
 ***Research Objectives***
 
